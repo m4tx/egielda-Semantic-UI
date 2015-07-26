@@ -83,7 +83,7 @@
 @focusBorderColor: @selectedBorderColor;
 @focusBackground: @background;
 @focusColor: @hoveredTextColor;
-@focusBoxShadow: none;
+@focusBoxShadow: 0px 1px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 8px rgba(34, 36, 38, 0.35);
 
 /* Error */
 @errorBackground: @negativeBackgroundColor;
