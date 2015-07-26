@@ -6,7 +6,7 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Lato';
+@fontName          : 'Roboto';
 @fontSmoothing     : antialiased;
 
 @headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -15,7 +15,7 @@
 @googleFontName    : @fontName;
 @importGoogleFonts : true;
 @googleFontSizes   : '400,700,400italic,700italic';
-@googleSubset      : 'latin';
+@googleSubset      : 'latin,latin-ext';
 
 @googleProtocol    : 'https://';
 @googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
