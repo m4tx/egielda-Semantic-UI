@@ -2,5 +2,10 @@
      User Global Variables
 *******************************/
 
+// Font
 @fontName          : 'Roboto';
 @googleSubset      : 'latin,latin-ext';
+
+// Asset paths
+@imagePath : '../images';
+@fontPath  : '../fonts';
