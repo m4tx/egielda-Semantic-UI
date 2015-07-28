@@ -13,7 +13,7 @@
     div.inline.fields {
       display: table-row;
 
-      label {
+      label, .label:not(.pointing) {
         width: 1px;
         white-space: nowrap;
 
@@ -22,12 +22,15 @@
         vertical-align: middle;
       }
 
-      label, .field {
+      label, .label:not(.pointing), .field {
         display: table-cell;
+      }
+
+      .ui.pointing.label {
+        margin-top: -5em;
       }
     }
   }
-
 }
 
 @media only screen and (max-width: @largestMobileScreen) {
