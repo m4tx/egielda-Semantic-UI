@@ -27,7 +27,7 @@
       }
 
       .ui.pointing.label {
-        margin-top: -5em;
+        margin-top: -20px;
       }
     }
   }
