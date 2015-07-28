@@ -2,7 +2,46 @@
          Site Overrides
 *******************************/
 
-.ui.form .inline.fields .field > label.right.aligned {
-  width: 100%;
-  text-align: right;
+@media only screen and (min-width: @tabletBreakpoint) {
+  .ui.form .responsive-form, .responsive-form {
+    display: table;
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 0 12px;
+
+    div.inline.fields {
+      display: table-row;
+
+      label {
+        width: 1px;
+        white-space: nowrap;
+
+        padding-right: 10px;
+        text-align: right;
+      }
+
+      label, .field {
+        display: table-cell;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: @largestMobileScreen) {
+  .ui.form .responsive-form, .responsive-form {
+    .inline.fields {
+      display: block;
+    }
+  }
+}
+
+.ui.form .responsive-form, .responsive-form {
+  div.inline.fields {
+    .field, .field > * {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
 }
