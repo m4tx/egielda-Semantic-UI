@@ -3,3 +3,11 @@
 *******************************/
 
 @fontName          : 'Roboto';
+
+/* I have literally no idea why Semantic UI does not ship with these two by default. */
+span[class*="right floated"] {
+  float: right;
+}
+span[class*="left floated"] {
+  float: left;
+}
