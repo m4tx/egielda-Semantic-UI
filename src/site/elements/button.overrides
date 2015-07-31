@@ -1,3 +1,17 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui[class*="link button"] {
+  padding: 0;
+  background: transparent;
+
+  color: @linkColor;
+  text-decoration: @linkUnderline;
+
+  &:hover, &:active {
+    background: transparent;
+    color: @linkHoverColor;
+    text-decoration: @linkHoverUnderline;
+  }
+}
