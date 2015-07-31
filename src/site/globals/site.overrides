@@ -2,7 +2,9 @@
          Site Overrides
 *******************************/
 
-@fontName          : 'Roboto';
+h1 {
+  font-weight: 300;
+}
 
 /* I have literally no idea why Semantic UI does not ship with these two by default. */
 span[class*="right floated"] {
