@@ -1,3 +1,9 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.striped.segments {
+  .ui.segment:not(.secondary):nth-child(2n+1) {
+    background: @stripedBackground;
+  }
+}
