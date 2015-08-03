@@ -1,3 +1,9 @@
 /*******************************
         User Overrides
 *******************************/
+
+@import "../globals/mixins";
+
+.ui.accordion .content:after {
+  .clearfix;
+}
