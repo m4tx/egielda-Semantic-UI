@@ -43,6 +43,13 @@
 
 .ui.form .responsive-form, .responsive-form {
   div.inline.fields {
+    label, .label:not(.pointing) {
+      font-size: @inlineLabelFontSize;
+      font-weight: @inlineLabelFontWeight;
+      color: @inlineLabelColor;
+      text-transform: @inlineLabelTextTransform;
+    }
+
     .field, .field > * {
       width: 100%;
       padding-right: 0;
