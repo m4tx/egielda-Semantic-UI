@@ -8,6 +8,7 @@
 
   color: @linkColor;
   text-decoration: @linkUnderline;
+  font-weight: normal;
 
   &:hover, &:active {
     background: transparent;
