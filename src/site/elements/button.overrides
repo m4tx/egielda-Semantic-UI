@@ -10,7 +10,7 @@
   text-decoration: @linkUnderline;
   font-weight: normal;
 
-  &:hover, &:active {
+  &:hover, &:active, &:focus {
     background: transparent;
     color: @linkHoverColor;
     text-decoration: @linkHoverUnderline;
