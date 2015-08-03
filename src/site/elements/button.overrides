@@ -2,6 +2,10 @@
          Site Overrides
 *******************************/
 
+.ui.buttons .or:before {
+  font-size: 70%;
+}
+
 .ui[class*="link button"] {
   padding: 0;
   background: transparent;
