@@ -4,6 +4,10 @@
 
 @import "../globals/mixins";
 
-.ui.accordion .content:after {
-  .clearfix;
+.ui.accordion {
+  margin-bottom: 1em;
+
+  .content:after {
+    .clearfix;
+  }
 }
