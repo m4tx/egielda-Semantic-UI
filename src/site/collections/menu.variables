@@ -1,3 +1,5 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@dropdownItemFontSize: 1.1em;

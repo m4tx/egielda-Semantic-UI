@@ -1,3 +1,9 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.breadcrumb {
+  padding: 10px 15px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
