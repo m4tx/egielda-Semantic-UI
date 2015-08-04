@@ -10,10 +10,14 @@
     border-collapse: separate;
     border-spacing: 0 12px;
 
+    &.spaceless {
+      border-spacing: 0;
+    }
+
     div.inline.fields {
       display: table-row;
 
-      label, .label:not(.pointing) {
+      & > label, & > .label:not(.pointing) {
         width: 1px;
         white-space: nowrap;
 
@@ -22,11 +26,11 @@
         vertical-align: middle;
       }
 
-      label, .label:not(.pointing), .field {
+      & > label, & > .label:not(.pointing), .field {
         display: table-cell;
       }
 
-      .ui.pointing.label {
+      & > .ui.pointing.label {
         margin-top: -20px;
       }
     }
@@ -43,7 +47,7 @@
 
 .ui.form .responsive-form, .responsive-form {
   div.inline.fields {
-    label, .label:not(.pointing) {
+    & > label, & > .label:not(.pointing) {
       font-size: @inlineLabelFontSize;
       font-weight: @inlineLabelFontWeight;
       color: @inlineLabelColor;
