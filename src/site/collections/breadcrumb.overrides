@@ -6,4 +6,9 @@
   padding: 10px 15px;
   background-color: #F5F5F5;
   border-radius: 4px;
+
+  h1 + & {
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+  }
 }
