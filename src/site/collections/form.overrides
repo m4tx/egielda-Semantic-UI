@@ -46,6 +46,10 @@
 }
 
 .ui.form .responsive-form, .responsive-form {
+  & + .ui.table {
+    margin-top: 0;
+  }
+
   div.inline.fields {
     & > label, & > .label:not(.pointing) {
       font-size: @inlineLabelFontSize;
