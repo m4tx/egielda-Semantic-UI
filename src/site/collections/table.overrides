@@ -6,3 +6,7 @@
   background: @selectableBackground;
   color: @selectableTextColor;
 }
+
+.ui.table.sortable:not(.celled) thead th {
+  border-left: none;
+}
