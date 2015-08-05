@@ -54,9 +54,13 @@
       text-transform: @inlineLabelTextTransform;
     }
 
-    .field, .field > * {
+    .field, .field > *, .field > .ui.input {
       width: 100%;
       padding-right: 0;
+    }
+
+    .field > .ui.input {
+      display: inline-flex;
     }
   }
 }
