@@ -23,7 +23,8 @@
 
         padding-right: 10px;
         text-align: right;
-        vertical-align: middle;
+        vertical-align: top;
+        padding: 0.67em;
       }
 
       & > label, & > .label:not(.pointing), .field {
