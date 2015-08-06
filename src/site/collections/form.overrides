@@ -23,8 +23,7 @@
 
         padding-right: 10px;
         text-align: right;
-        vertical-align: top;
-        padding: 0.67em;
+        vertical-align: middle;
       }
 
       & > label, & > .label:not(.pointing), .field {
@@ -33,6 +32,15 @@
 
       & > .ui.pointing.label {
         margin-top: -20px;
+      }
+    }
+  }
+
+  .ui.form .responsive-form:not(.static-form), .responsive-form:not(.static-form) {
+    div.inline.fields {
+      & > label, & > .label:not(.pointing) {
+        vertical-align: top;
+        padding: 0.67em;
       }
     }
   }
