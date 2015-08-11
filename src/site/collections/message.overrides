@@ -2,7 +2,13 @@
     User Variable Overrides
 *******************************/
 
-/* Smoothens jQuery's slideUp/slideDown animations */
-.ui.message.slideable {
-    min-height: 0;
+.ui.message {
+    /* Smoothens jQuery's slideUp/slideDown animations */
+    &.slideable {
+        min-height: 0;
+    }
+
+    .ui.header + .ui.button {
+        margin-top: 0.5rem;
+    }
 }
