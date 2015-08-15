@@ -57,13 +57,17 @@
         }
       }
     }
-  }
 
-  .ui.form .responsive-form:not(.static-form), .responsive-form:not(.static-form) {
-    div.inline.fields {
-      & > label, & > .label:not(.pointing) {
-        vertical-align: top;
-        padding: 0.67em;
+    &:not(.static-form) {
+      div.inline.fields {
+        & > label, & > .label:not(.pointing) {
+          vertical-align: top;
+          padding: 0.67em;
+        }
+
+        & > .field > .static-field {
+          padding: 0.67em 0.1em;
+        }
       }
     }
   }
