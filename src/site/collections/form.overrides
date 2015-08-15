@@ -14,6 +14,20 @@
       border-spacing: 0;
     }
 
+    // Django file input's "clear" checkbox
+    input[type="checkbox"][id$="-clear_id"] {
+      margin: 0 4px 0 25px;
+      width: initial !important;
+    }
+    label[for$="-clear_id"] {
+      width: initial !important;
+    }
+
+    input[type="file"] {
+      height: auto;
+      padding: 0.458614em 0;
+    }
+
     div.inline.fields {
       display: table-row;
 
@@ -31,7 +45,16 @@
       }
 
       & > .ui.pointing.label {
-        margin-top: -20px;
+        margin-top: 0;
+
+        & > ul {
+          margin: 0;
+          padding: 4px 20px;
+
+          & > li {
+            padding: 3px;
+          }
+        }
       }
     }
   }
